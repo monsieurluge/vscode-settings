@@ -4,7 +4,6 @@
         "*.env.*": "shellscript",
     },
     "files.trimTrailingWhitespace": true,
-    "debug.javascript.codelens.npmScripts": "never",
     "breadcrumbs.symbolPath": "off",
     "editor.acceptSuggestionOnEnter": "off",
     "editor.colorDecorators": false,
@@ -517,6 +516,15 @@
                 "scope": [
                     "meta.objectliteral punctuation.definition.block",
                     "meta.object.type punctuation.definition.block",
+                ],
+                "settings": {
+                    "foreground": "#e5ccaf"
+                }
+            },
+            {
+                "name": "javascript object literal keys",
+                "scope": [
+                    "meta.object-literal.key"
                 ],
                 "settings": {
                     "foreground": "#e5ccaf"
