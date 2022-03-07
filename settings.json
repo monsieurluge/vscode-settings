@@ -23,6 +23,7 @@
         "comments": false,
         "strings": false,
     },
+    "editor.guides.indentation": false,
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.horizontalScrollbarSize": 0,
     "editor.scrollbar.vertical": "hidden",
@@ -536,4 +537,7 @@
     "explorer.confirmDragAndDrop": false,
     "workbench.editor.untitled.hint": "hidden",
     "security.workspace.trust.untrustedFiles": "open",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
