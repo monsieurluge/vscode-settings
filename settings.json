@@ -81,4 +81,6 @@
     "security.workspace.trust.untrustedFiles": "open",
     "workbench.colorTheme": "Nord",
     "editor.minimap.enabled": false,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "liveshare.comments": false,
 }
